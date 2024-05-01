@@ -1,35 +1,16 @@
-@import './base.css';
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+/* Properties */
+* {
+    --text-custom-color: #000;
+    --bg-custom-color: #EADDE1;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
+/* tag custom style */
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+/* class custom style */
+.triangle {
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 160px solid var(--bg-custom-color);
+    border-right : 100vw solid transparent;
 }

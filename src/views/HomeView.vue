@@ -1,10 +1,15 @@
 <script setup>
+import { onMounted } from 'vue'
+import Home from '@/components/Home.vue'
 
 </script>
 
 <template>
-  <main>
-    <h1>Home</h1>
-    <p>Welcome to the Home page</p>
+  <main class="bg-transparent">
+    <Home class="bg-transparent"/>
   </main>
 </template>
+
+<style>
+
+</style>
