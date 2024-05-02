@@ -1,7 +1,7 @@
 <template>
   <header class="portfolio-header">
     <div class="container">
-      <h1 class="display-4 text-center mb-4 animated fadeInDown title">Portfolio</h1>
+      <h1 class="display-4 text-center mb-4 animated fadeInDown title">Mathis GERBOUD - Développeur web</h1>
       <nav class="navbar navbar-expand-xl navbar-dark flex-column align-items-center justify-content-center">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -44,6 +44,7 @@
 
 .nav-link {
   font-size: 1.2rem;
+  padding: 0;
   font-weight: 500;
   margin: 0 20px 0 20px;
   transition: color 0.3s ease;

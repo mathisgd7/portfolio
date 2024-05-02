@@ -2,6 +2,10 @@ import 'primevue/resources/themes/aura-light-green/theme.css'
 
 import './scss/styles.scss'
 import * as bootstrap from 'bootstrap'
+import './assets/fontawesome/css/fontawesome.css'
+import './assets/fontawesome/css/brands.css'
+import './assets/fontawesome/css/solid.css'
+import './assets/fontawesome/css/v4-font-face.css'
 
 
 import { createApp } from 'vue'
