@@ -1,7 +1,7 @@
 <template>
   <header class="portfolio-header">
     <div class="container">
-      <h1 class="display-4 text-center mb-4 animated fadeInDown title">Mathis GERBOUD - Développeur web</h1>
+      <h1 class="display-4 text-center mb-4 animated fadeInDown title">Mathis GERBOUD - Développeur web fullstack</h1>
       <nav class="navbar navbar-expand-xl navbar-dark flex-column align-items-center justify-content-center">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -9,10 +9,13 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link nav-active" href="#accueil">Accueil</a>
+              <a class="nav-link" href="#homepage">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projets">Projets</a>
+              <a class="nav-link" href="#skills">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projets</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -48,10 +51,6 @@
   font-weight: 500;
   margin: 0 20px 0 20px;
   transition: color 0.3s ease;
-}
-
-.nav-active {
-  border-bottom: 2px solid var(--text-custom-color);
 }
 
 .nav-link:hover {

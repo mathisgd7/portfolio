@@ -2,6 +2,15 @@
 * {
     --text-custom-color: #2B2C28;
     --bg-custom-color: #EADDE1;
+
+    --php-color: #797cb0;
+    --c-color: #6d96c7;
+    --js-color: #f3e04f;
+    --vuejs-color: #64b788;
+    --java-color: #da4038;
+    --sprinboot-color: #81b355;
+    --iot-color: #4289d5;
+
 }
 
 /* tag custom style */

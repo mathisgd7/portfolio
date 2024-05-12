@@ -1,6 +1,5 @@
 <script setup>
 
-
 const formData = {
   name: '',
   email: '',
@@ -15,11 +14,11 @@ const submitForm = () => {
   formData.email = '';
   formData.message = '';
 };
+
 </script>
 
 <template>
-  <div class="container py-5" id="contact">
-    <h2 class="mb-4">Contactez-moi</h2>
+  <div class="container">
     <div class="row">
       <div class="col-md-6">
         <form @submit.prevent="submitForm">
